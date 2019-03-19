@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+    gearmand:
+      container_name: gearmand
+      build:
+        context: library/Gearmand
+        dockerfile: Dockerfile
